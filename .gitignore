@@ -1,0 +1,48 @@
+# Virtual environments
+.venv/
+fid-env/
+
+# Large model files
+*.h5
+*.hdf5
+*.pt
+*.pth
+*.ckpt
+
+# Dataset files
+data/
+data.zip
+*.csv
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# LaTeX auxiliary files
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.synctex.gz
+
+# Temp files
+tempCodeRunnerFile.py
+
+# GAN saved models
+saved_gan_models/
+
+# StyleGAN submodule
+stylegan2-ada-pytorch-main/
+
+# Output directories
+gradcam_outputs/
+lime_outputs/
